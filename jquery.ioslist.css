@@ -1,0 +1,69 @@
+/**
+ * Copyright (c) 2011 Ken Colton
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * License available in GPL-LICENSE.txt or <http://www.gnu.org/licenses/>.
+ */
+
+ul.iOSList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.iOSList li {
+    position: relative;
+}
+
+/* ***** CATEGORY ***** */
+
+ul.iOSList > li > div, div.iOSList_Proxy {
+    background: #ddd;
+    color: #fff;
+    padding: 7px;
+    font-weight: bold;
+    border-bottom: 1px solid #7d8490;
+    background: #626874;
+    background: -moz-linear-gradient(top, #7d8490, #a7aebb);
+    background: -webkit-gradient(linear, left top, left bottom, from(#7d8490), to(#a7aebb));
+    text-shadow: 0 -1px #666;
+}
+
+ul.iOSList > li > div {
+    position: relative;
+    z-index: 100;
+}
+
+div.iOSList_ProxyContainer {
+}
+
+div.iOSList_Proxy {
+    position: fixed;
+    top: 0;
+    display: none;
+    z-index: 50;
+}
+
+/* ***** ITEMS IN CATEGORY ***** */
+
+ul.iOSList li ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.iOSList li ul li {
+    padding: 7px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    color: #666;
+}
