@@ -36,7 +36,7 @@ $('#list').iOSList();
             <li>List Item 4</li>
             <li>List Item 5</li>
         </ul>
-    <li>
+    </li>
     
     <li>
         <div>Category Two</div>
@@ -47,5 +47,5 @@ $('#list').iOSList();
             <li>List Item 4</li>
             <li>List Item 5</li>
         </ul>
-    <li>
+    </li>
 </ul>
